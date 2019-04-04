@@ -103,7 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-api_keys.py
+#MySQL connection details
+credentials.py
 
 # Jupyter 
 .ipynb_checkpoints/
