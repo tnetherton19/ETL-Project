@@ -1,0 +1,10 @@
+To enable the Google BigQuery API:
+
+1. Run the following in a Bash Window:
+	pip install --upgrade google-cloud-storage
+
+2. Follow the instructions for setting up the authentication (make sure you selected "Python" tab) found on teh following link:
+	https://cloud.google.com/storage/docs/reference/libraries#client-libraries-usage-python
+3. I put the json file (the key) in a directory on my C drive and created an environment per the instructions. I don't know it it is necessary, but I shut down and restarted the Bash window that was running jupyter - it may have been that I did not wait long enough (see NOTE below)
+
+NOTE: you will will get the json file downloaded immediately, but you need to wait for the account to propogagte through the site - Give it 5-10 minutes. If it gives an error about authentication, give it another 5-10 minutes. 
